@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+         <meta charset="UFT-8">
+
+         <title>Practice</title>
+     </head>
+      <body>
+           <h1>Braelen Cypress:Web Standards</h1>
+
+           <h2>Labs 1 & 2</h2>
+
+           <p>During my first time creating a webpage, i have been struggling alot with the new information i have been learning,
+            like forgetting the kinds of code is used in a HTML and where to put it. But one of the things I have found interesting,
+            was how HTML is known to have its own family tree of different kinds of paths to use it. trying to understand everything is
+            difficult for now, slowly going through everything could help alot.</p>
+
+            <h2>What i learned</h2>
+            <ul>
+              <li>There are 6 levels of heading</li>
+
+              <li>HTML has elements</li>
+
+              <li>The body element contains all content I want to show</li>
+            <ul>
+              
+                <h3>What I learned from</h3>
+              
+              <p><a href="https://developer.mozilla.org"</a></p>
+
+            </body>
+            </html>
