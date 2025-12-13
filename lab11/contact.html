@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+<head>
+<style>
+  body {
+        font-family:Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url(web.jpg);
+    }
+    header {
+        background: lightsteelblue;
+        color: black;
+        padding: 20px;
+        text-align: center;
+        text-shadow:  8px 10px 10px;
+    }
+    main {
+        padding: 20px;
+        max-width: 900px;
+        margin: 30px auto;
+        background: lightsteelblue;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px black;
+    }
+    .navbar {
+        text-align: center;
+        margin:20px 0;
+        font-size: 1.2rem;
+    }
+    .navbar a {
+        color:black;
+        text-decoration: none;
+        margin:0 10px;
+        font-weight: bold;
+    }
+    .navbar a:hover {
+        text-decoration: underline;
+        color:rgb(100, 93, 84);
+    }
+    h1, h2, h3 {
+        color: black;
+        background-color: oldlace;
+        margin-top: 20px;
+        padding: 10px;
+        margin: 10px 4px
+        
+    }
+    p {
+        font-size: 1.05rem;
+        line-height: 1.6;
+    }
+    ul, li, a {
+        color: blue;
+        font-weight: bold;
+        list-style-type: none;
+         text-decoration: none;
+    }
+    footer {
+        text-align: center;
+        padding: 10px;
+        background: lightsteelblue;
+        color: black;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    @media only screen and (max-width:600px) {
+        nav a {
+            display:block;
+            margin: 10px 0;
+        }
+    }
+    </style>
+    </head>
+<body>
+    <header>
+    <h1>Information</h1>
+    <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home Screen</a></li>
+                <li><a href="labs.html">Labs</a></li>
+                <li><a href="reflection.html">Reflection</a></li>
+                <li><a href="contact.html">Information</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+            
+            <h1>Contact Form</h1>
+<form>
+   <a href="index.html">Home</a>
+  
+    <div>
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname" placeholder="Braelen">
+    </div>
+
+    <br>
+
+    <div>
+    <label for="lname">last name:</label>
+    <input type="text" id="lname" name="lname" placeholder="Cypress">
+    </div>
+
+<br>
+
+<div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="braelen9702@gmail.com">
+</div>
+<br>
+<div>
+    <label for="message">message:</label>
+    <textarea id="message" name="message" rows="5" placeholder=""></textarea>
+</div>
+<br>
+<div>
+    <input type="reset">
+</div>
+<br>
+<div>
+    <input type="submit">
+</div>
+
+</form>
+        
+    
+    
+</body>
+</html>
